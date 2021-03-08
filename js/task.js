@@ -4,6 +4,7 @@ const galleryContainer = document.querySelector('.js-gallery')
 const galleryMarkup = createGallery(images);
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryMarkup)
+galleryContainer.addEventListener('click', handleGalleryItemClick)
 
 function createGallery(images) {
     return images.map(({ preview, original, description }) => {
@@ -23,4 +24,13 @@ function createGallery(images) {
 </li>`;
     })
         .join('');
+}
+
+function handleGalleryItemClick(evt) {
+    evt.preventDefault();
+    const imageEl = evt.target.classList.contains('gallery__image');
+    if (!imageEl) {
+        return;
+    };
+console.log(evt.target.dataset.source);
 }
