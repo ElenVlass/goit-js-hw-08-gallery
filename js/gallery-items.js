@@ -62,4 +62,16 @@ export default [
       'https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg',
     description: 'Lighthouse Coast Sea',
   },
+  // {
+  //    preview: 'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__480.jpg',
+  //   original: 'https://cdn.pixabay.com/photo/2021/02/01/16/22/flamingo-5971206__480.jpg',
+  // },
+  // {
+  //    preview: 'https://cdn.pixabay.com/photo/2021/02/01/20/16/yachts-5971866__480.jpg',
+  //   original: 'https://cdn.pixabay.com/photo/2021/02/01/20/16/yachts-5971866__480.jpg',
+  // },
+  //  {
+  //    preview: 'https://cdn.pixabay.com/photo/2019/05/23/21/56/heath-the-bumble-bee-4224954__480.jpg',
+  //   original: 'https://cdn.pixabay.com/photo/2019/05/23/21/56/heath-the-bumble-bee-4224954__480.jpg',
+  // },
 ];
