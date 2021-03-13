@@ -7,11 +7,13 @@ function createGallery(images) {
     href="${original}"
     >
     <img
-    class="gallery__image"
-    src="${preview}"
+    class="gallery__image lazyload"
+    data-src="${preview}"
     data-source="${original}"
     alt="${description}"
     data-index="${index}"
+    width="480"
+    height="340"
     />
   </a>
 </li>`;
